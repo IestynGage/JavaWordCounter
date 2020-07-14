@@ -37,6 +37,7 @@ Tom's          | 5 Letters
 Tom'           | 3 Letters
 Tom's'         | 5 Letters
 &              | 1 Letter
+******         | 0 Letters
 
 # How to get the program to work?
 
@@ -45,4 +46,4 @@ For an example of this just look to the test class.
 
 # Final Note
 
-Comparing with other word counters such as Microsoft Word. I believe this program is more 'accurate' as it counts strings such as "Now).It" as two different words while other program such as microsoft Office's Word counts "Now).It" as single word.
+Comparing with other word counters such as Microsoft Word. I believe this program is more 'accurate' as it counts strings such as "Now).It" as two different words while other program such as microsoft Office's Word counts "Now).It" as single word. The program also doesn't count long strings of symbols as words
