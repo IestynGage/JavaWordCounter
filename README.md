@@ -45,12 +45,9 @@ For an example of this just look to the test class.
 
 # Final Note
 
-Comparing to other word counters such as Microsoft Word. I believe this program is more 'accurate' as it counts strings such as "Now).It" as two different words while other
-program such as microsoft Office's Word counts "Now).It" as single word.
-
-Could this program be made simpler? 
-Yes however to count strings such as "end.The" or "Now).It" as two strings I am unable to make the program simpler.
+Comparing with other word counters such as Microsoft Word. I believe this program is more 'accurate' as it counts strings such as "Now).It" as two different words while other program such as microsoft Office's Word counts "Now).It" as single word.
 
 Could this program process text faster?
+
 You could possible increase the speed by some-how implementing multithreading however the program works quite quickly as it is, 
 so unless your planning on counting libraries worth of books. Then it's unnessecary.
