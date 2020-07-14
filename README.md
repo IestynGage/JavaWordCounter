@@ -24,7 +24,7 @@
  >
  
  # What Counts as a single word?
- All words, words with hyphens `-` , words with Apostrophe `'s` , plain numbers, numbers with decimal and money. Below is table to demonstrate
+ All words, words with hyphens `-` , words with Apostrophe s `'s` , plain numbers, numbers with decimal, money and dates. Below is table to demonstrate
  few examples
 String         | Counts as
 ------------   | -------------
@@ -34,3 +34,10 @@ Goodbye.Hello  | 7 Letters 5 Letters
 £10.00         | 6 Letters
 10/10/2014     | 10 Letters
 Tom's          | 5 Letters
+Tom'           | 3 Letters
+Tom's'         | 5 Letters
+&              | 1 Letter
+
+# How to get program to work?
+
+This is just simple single class maven project. For the program to work just give countTextFile function a file object that the program can access and it should work fine. For an example of this just look to the test class.
