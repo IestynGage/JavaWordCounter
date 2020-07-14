@@ -27,14 +27,14 @@ public class IestynWordCounter {
      * @param file
      * @return String about the word count of the text file
      */
-    public static String countTextFile(File file){
+    public String countTextFile(File file){
         if(file==null){
             return null;
         }
-        IestynWordCounter wordCounter = new IestynWordCounter();
-        HashMap<Integer,Integer> wordList = wordCounter.countWords(file);
 
-        return wordCounter.outputData(wordList);
+        HashMap<Integer,Integer> wordList = countWords(file);
+
+        return outputData(wordList);
     }
 
     /**
